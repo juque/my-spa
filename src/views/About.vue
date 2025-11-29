@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import Section from '../components/layout/Section.vue'
 import Lorem from '../components/shared/Lorem.vue'
+import TitleSection from '../components/ui/TitleSection.vue'
 </script>
 
 <template>
   <Section>
-    <h1>About section</h1>
+    <TitleSection>About</TitleSection>
     <Lorem />
   </Section>
 </template>
