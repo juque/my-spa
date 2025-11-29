@@ -1,10 +1,13 @@
 <script setup lang="ts">
+import Section from '../components/layout/Section.vue'
+import Lorem from '../components/shared/Lorem.vue'
 </script>
 
 <template>
-  <div>
+  <Section>
     <h1>About section</h1>
-  </div>
+    <Lorem />
+  </Section>
 </template>
 
 <style scoped>
