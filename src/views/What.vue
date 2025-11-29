@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <p>Footer</p>
+    <h1>What section</h1>
   </div>
 </template>
 

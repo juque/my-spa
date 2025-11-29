@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <h1>Main</h1>
+    <h1>Contact section</h1>
   </div>
 </template>
 

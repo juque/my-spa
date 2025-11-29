@@ -2,10 +2,15 @@
 </script>
 
 <template>
-  <div>
-    <h1>Header</h1>
-  </div>
+  <footer>
+    <p>Footer</p>
+  </footer>
 </template>
 
 <style scoped>
+
+footer {
+  border: 5px dotted gray;
+}
+
 </style>
