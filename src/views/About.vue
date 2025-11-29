@@ -5,8 +5,8 @@ import TitleSection from '../components/ui/TitleSection.vue'
 </script>
 
 <template>
-  <Section>
-    <TitleSection>About</TitleSection>
+  <Section id="about" aria-labelledby="heading-about">
+    <TitleSection id="heading-about">About</TitleSection>
     <Lorem />
   </Section>
 </template>
