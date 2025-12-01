@@ -37,8 +37,13 @@ const toggleMobileMenu = (): void => {
 
 <template>
   <header class="sticky top-0 bg-white z-50">
-    <nav>
-      <!-- Hamburger Button (visible only on mobile) -->
+    <nav class="flex justify-between" style="border:1px solid red">
+			
+      <a href="#inicio" class="flex gap-1" aria-label="Ir al inicio">
+        <div class="flex item-center justify-center w-[40px] h-[25px] font-bold bg-gray-700 text-white rounded-md" aria-hidden="true">MS</div>
+        <span>Mi Sitio</span>
+      </a>
+
       <button 
         @click="toggleMobileMenu" 
         class="hamburger-btn"
